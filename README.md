@@ -21,20 +21,17 @@ A Java application for managing employee data using an SQL database. Demonstrate
 ### Database Setup
 
 1. **Create Database and Table:**
-   Set up your SQL Server database and table by executing the following SQL commands:
+   Set up your SQL Server database and table by executing the file in util
    
-   ```sql
-   -- Create the database
-   CREATE DATABASE EmployeeDB;
-   
-   -- Use the database
-   USE EmployeeDB;
-   
-   -- Create the employees table
-   CREATE TABLE employees (
-       id INT PRIMARY KEY IDENTITY,
-       name VARCHAR(255) NOT NULL,
-       email VARCHAR(255) NOT NULL UNIQUE,
-       position VARCHAR(255),
-       salary DECIMAL(10, 2) NOT NULL
-   );
+ ## Running the Application
+
+To run the application, follow these steps:
+
+### 1. Build the Project
+
+Ensure you have Maven installed. Open a terminal or command prompt and navigate to the project root directory where the `pom.xml` file is located.
+
+Run the following Maven command to build the project:
+
+```bash
+mvn clean install
