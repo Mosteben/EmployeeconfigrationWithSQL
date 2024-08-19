@@ -28,7 +28,7 @@ A Java application for managing employee data using an SQL database. Demonstrate
 
 To run the application, follow these steps:
 
-### 1. Build the Project
+###  Build the Project
 
 Ensure you have Maven installed. Open a terminal or command prompt and navigate to the project root directory where the `pom.xml` file is located.
 
@@ -37,9 +37,3 @@ Run the following Maven command to build the project:
 ```bash
 mvn clean install
 
-Verify Application:
-
-The application should start, and you will see output in the terminal based on the operations performed in the Main class:
-
-Employee records will be retrieved and displayed.
-Any updates or deletions made will be reflected in the output.
