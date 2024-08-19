@@ -16,6 +16,7 @@ A Java application for managing employee data using an SQL database. Demonstrate
 - **`com.example.service`**: `EmployeeService` for business logic.
 - **`com.example.factory`**: `EmployeeFactory` for creating employees.
 - **`com.example`**: Main class (`Main`) for application execution.
+- - **`com.example.util`**: Contains `DatabaseConnection` class for managing database connections.
 ## Database Connection and Setup
 
 ### Database Setup
@@ -35,3 +36,10 @@ Run the following Maven command to build the project:
 
 ```bash
 mvn clean install
+
+Verify Application:
+
+The application should start, and you will see output in the terminal based on the operations performed in the Main class:
+
+Employee records will be retrieved and displayed.
+Any updates or deletions made will be reflected in the output.
